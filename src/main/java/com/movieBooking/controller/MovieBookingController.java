@@ -17,7 +17,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import com.movieBooking.model.MovieDetails;
 import com.movieBooking.model.TicketDetails;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = "*")
 @RestController
 public class MovieBookingController {
 
