@@ -27,7 +27,7 @@ import com.movieBooking.model.User;
 import com.movieBooking.service.MovieBookingService;
 import com.movieBooking.service.impl.UserDetailsServiceImpl;
 
-@CrossOrigin(origins = "*") 
+@CrossOrigin(origins = "https://moviebookingsrujan.azurewebsites.net") 
 @RestController
 public class AuthController {
 

@@ -17,7 +17,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import com.movieBooking.model.MovieDetails;
 import com.movieBooking.model.TicketDetails;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://moviebookingsrujan.azurewebsites.net")
 @RestController
 public class MovieBookingController {
 
